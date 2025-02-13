@@ -52,7 +52,7 @@ class User < SitePrism::Page
   # Método de login
   def logar_usuario
     nome.set 'haianvbsantos@gmail.com'
-    senha.set '123456'
+    senha.set ''
     entrar.click
   end
 
